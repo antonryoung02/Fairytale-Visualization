@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSE457: Assignment 3</title>
+    <link rel="stylesheet" href="public/css/style.css"/>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="text/javascript" src="bower_components/d3-tip/index.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Fairy Tale Sentiment</h1>
+    <h4> Anton Young </h4>
+    <p>Model used <a href=https://huggingface.co/j-hartmann/emotion-english-distilroberta-base>here</a></p>
+    <select id="choose-fairytale"></select>
+
+    <svg id="timeline"></svg>
+    <svg id="emotion-svg"></svg>
+    <script type="application/javascript" src="public/js/SentimentDisplayChart.js"></script>
+    <script type="application/javascript" src="public/js/main.js"></script>
+</body>
+</html>

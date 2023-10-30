@@ -1,0 +1,46 @@
+.d3-tip {
+    /*line-height: 5;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    min-height:50px;
+    border-style: groove;
+    /*padding: 12px;*/
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    pointer-events: none;
+}
+.tooltip-title{
+    font-size:18px;
+    font-family: "Arial Black";
+}
+#selected-box {
+    stroke: black;
+    stroke-width: 3px;
+}
+@font-face {
+    font-family: "ClassicalDiary";
+    src: url("/classical_diary/ClassicalDiary-Regular Demo.ttf");
+}
+body {
+    font-family: "ClassicalDiary";
+}
+#timeline {
+    background-color: gainsboro;
+    width:100%;
+    height:250px;
+    font-size: 12px;
+}
+#emotion-svg {
+    width:100%;
+    height:250px;
+    font-size: 10px;
+}
+
+.text-content {
+    max-width:100px;
+}
+* {
+    background-color: lightgray;
+}
