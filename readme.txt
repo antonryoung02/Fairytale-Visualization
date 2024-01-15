@@ -1,15 +1,9 @@
-I did use external resources.
+457 Intro to Visualization assignment.
+Given text data of children's fairytales, our task was to come up with an effective visualization of the data. Typically, reading only allows the audience to understand stories linearly over a long period of time, but my visualization breaks this convention. Viewers can instantly locate strong-emotion points in the story and view how the emotions change as it progresses.
 
-To include a custom font
-https://www.geeksforgeeks.org/how-to-include-a-font-ttf-using-css/
+I used a script that parsed text into sentences and performed sentiment analysis using an open source model on Huggingface.
 
-I had an issue where my text was being split on Mr. and Mrs. instead of end of line periods.
-https://stackoverflow.com/questions/29438152/regex-to-split-out-sentences-including-their-punctuation-but-not-on-titles-mr
 
-External Libraries
-I used python to create my dataset. The libraries I used:
-json, re, transformers
-
-Git pages url: https://antonryoung02.github.io/Fairytale-Visualization/
+Website url: https://antonryoung02.github.io/Fairytale-Visualization/
 
 
